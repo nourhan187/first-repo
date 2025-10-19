@@ -3,6 +3,8 @@ on:   #trigger workflow when ?
     branches: 
       - main
       - "release/**"
+    paths:
+      - "src/**"  
 on:   #trigger workflow when ?
   pull:  
     branches: 
